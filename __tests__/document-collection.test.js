@@ -34,4 +34,15 @@ describe('Document Collection', () => {
         expect(result).toEqual(object);
       });
   });
+  it('gets all files', () => {
+    readdir.mockResolvedValue([]);
+
+    return documentCollection.getAll()
+      .then((result) => {
+        expect(readdir.mock.calls.length).toBe(1);
+        console.log(readdir.mock.calls);
+        expect(readdir.mock.calls[0][0]).toEqual('folder');
+        expect(result).toEqual([]);
+      });
+  });
 });
