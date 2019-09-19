@@ -1,5 +1,3 @@
-const path = require('path');
-
 jest.mock('../lib/files.js', () => ({
   readFile: jest.fn(),
   writeFile: jest.fn(),
