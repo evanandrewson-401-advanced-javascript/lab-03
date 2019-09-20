@@ -1,12 +1,13 @@
 # LAB - 
 
-## Lab 03
+## Lab 04
 
 ### Author: Evan Andrewson
 
 ### Links and Resources
 * [submission PR](https://github.com/evanandrewson-401-advanced-javascript/lab-03/pull/1)
 * [travis](https://travis-ci.com/evanandrewson-401-advanced-javascript/lab-03)
+* [jsdoc]
 
 #### Running the app
 
