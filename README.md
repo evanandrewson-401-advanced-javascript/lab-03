@@ -5,9 +5,9 @@
 ### Author: Evan Andrewson
 
 ### Links and Resources
-* [submission PR](https://github.com/evanandrewson-401-advanced-javascript/lab-03/pull/1)
+* [submission PR](https://github.com/evanandrewson-401-advanced-javascript/lab-03/pull/2)
 * [travis](https://travis-ci.com/evanandrewson-401-advanced-javascript/lab-03)
-* [jsdoc]
+* [jsdoc](https://evanandrewson-401-advanced-javascript.github.io/lab-03/)
 
 #### Running the app
 

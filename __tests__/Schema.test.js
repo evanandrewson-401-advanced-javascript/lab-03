@@ -44,7 +44,7 @@ describe('Schema', () => {
       kids: 'yes',
     };
     expect(() => {
-      schema.Validate(person);
+      schema.validate(person);
     }).toThrow(schema.modelError);
   });
 

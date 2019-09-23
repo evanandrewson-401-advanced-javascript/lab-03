@@ -5,7 +5,7 @@ let str = 'yes';
 let numstr = '123';
 let num = 1;
 let arr = ['a', 'b'];
-let obj = {x:'y'};
+let obj = { x:'y' };
 let func = () => {};
 let bool = false;
 
