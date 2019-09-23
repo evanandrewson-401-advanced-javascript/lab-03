@@ -53,7 +53,7 @@ describe('Model', () => {
     
   });
 
-  it('creates a model', () => {
+  it.skip('creates a model', () => {
     const pojo = {
       name: 'test'
     };
