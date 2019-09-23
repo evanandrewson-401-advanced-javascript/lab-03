@@ -1,0 +1,34 @@
+{
+  "name": "lab-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanandrewson-401-advanced-javascript/lab-03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanandrewson-401-advanced-javascript/lab-03/issues"
+  },
+  "homepage": "https://github.com/evanandrewson-401-advanced-javascript/lab-03#readme",
+  "dependencies": {
+    "eslint": "^6.4.0",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3",
+    "jsdocs": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "shortid": "^2.2.15"
+  }
+}
